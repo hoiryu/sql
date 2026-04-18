@@ -14,7 +14,7 @@ ehthumbs.db
 docker-compose.override.yml
 
 # PostgreSQL data volume
-postgres-data/
+database/
 
 # Editor
 .vscode/

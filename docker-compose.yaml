@@ -4,11 +4,12 @@ services:
     postgres:
         image: postgres:17
         restart: always
+        container_name: 5_database_container
         volumes:
-            - ./postgres-data:/var/lib/postgresql/data
+            - ./database:/var/lib/postgresql/data
         ports:
             - '5432:5432'
         environment:
             POSTGRES_USER: postgres
             POSTGRES_PASSWORD: 1q2w3e4r
-            POSTGRES_DB: postgres
+            POSTGRES_DB: 5_database
