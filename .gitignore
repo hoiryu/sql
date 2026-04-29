@@ -25,3 +25,5 @@ database/
 # Logs
 *.log
 logs/
+
+test.sql
