@@ -13,7 +13,7 @@
 
 SELECT
     u.name,
-    COUNT(o.order_id) AS order_count
+    COUNT(o.order_id) AS order_count -- COUNT(*) 하면 NULL 포함
 FROM
     users u
 LEFT JOIN

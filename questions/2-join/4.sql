@@ -23,4 +23,5 @@ LEFT JOIN
     orders o ON u.user_id = o.user_id
 LEFT JOIN
 	products p ON o.product_id = p.product_id
-ORDER BY user_name ASC, product_name ASC
+ORDER BY 
+    user_name ASC, product_name ASC
