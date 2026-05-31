@@ -5,7 +5,7 @@
 -- 상품 이름, 원래 카테고리, 그리고 영문 카테고리를 함께 출력해야 한다.
 -- 
 -- Result
--- name category category\_english
+-- name category category_english
 -- 프리미엄 게이밍 마우스 전자기기 Electronics
 -- 기계식 키보드 전자기기 Electronics
 -- 4K UHD 모니터 전자기기 Electronics

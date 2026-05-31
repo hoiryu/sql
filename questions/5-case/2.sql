@@ -5,7 +5,7 @@
 -- '다량 주문'이 '단일 주문'보다 먼저 나오도록 정렬해라.
 -- 
 -- Result
--- order\_id quantity order\_type
+-- order_id quantity order_type
 -- 2 2 다량 주문
 -- 7 2 다량 주문
 -- 1 1 단일 주문
